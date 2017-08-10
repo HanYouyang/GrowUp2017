@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1-26326" Device="HanYouyangdeMacBook-Pro" Modified="2017-08-10 07:55:43 +0800" ModID="0F435435-B787-480F-AC95-F1D601DE419F">
+<ScrivenerProject Version="1.5" Creator="SCRMAC-2.8.1-26326" Device="HanYouyangdeMacBook-Pro" Modified="2017-08-10 09:46:25 +0800" ModID="9A1A8AD7-7C8B-4092-8939-DC17BEAD35FC">
     <Binder>
         <BinderItem ID="12" UUID="D3357B17-9A3E-4F6F-BE81-60BF4C25A561" Type="Text" Created="2017-08-10 07:48:20 +0800" Modified="2017-08-10 07:48:20 +0800">
             <Title>Non-Fiction Format</Title>
@@ -137,8 +137,8 @@
                                         <TextSelection>63,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
-                                <BinderItem ID="48" UUID="D03479D2-7F9C-4E82-AE89-98F13AE79AD8" Type="Text" Created="2017-08-10 07:53:59 +0800" Modified="2017-08-10 07:53:59 +0800">
-                                    <Title>Untitled</Title>
+                                <BinderItem ID="48" UUID="D03479D2-7F9C-4E82-AE89-98F13AE79AD8" Type="Text" Created="2017-08-10 07:53:59 +0800" Modified="2017-08-10 09:46:25 +0800">
+                                    <Title>学习一种工具就是驯化一种生物</Title>
                                     <MetaData>
                                         <IncludeInCompile>Yes</IncludeInCompile>
                                         <NotesTextSelection>0,0</NotesTextSelection>
@@ -339,7 +339,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 20:24:39 +0800" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="245" Characters="482" Date="2017-08-10 07:48:18 +0800"></PreviousSession>
+        <PreviousSession Words="252" Characters="496" Date="2017-08-10 09:46:00 +0800"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
