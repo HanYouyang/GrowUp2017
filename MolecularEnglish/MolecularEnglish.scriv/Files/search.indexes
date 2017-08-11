@@ -118,6 +118,10 @@ The &lt;$projecttitle&gt; and &lt;$fullname&gt; tags get replaced with the infor
         <Document ID="4">
             <Title>Chapter Subtitle</Title>
         </Document>
+        <Document ID="48">
+            <Title>学习一种工具就是驯化一种生物</Title>
+            <Text>学习一种工具就是驯化一种生物</Text>
+        </Document>
         <Document ID="27">
             <Title>Ideas</Title>
         </Document>

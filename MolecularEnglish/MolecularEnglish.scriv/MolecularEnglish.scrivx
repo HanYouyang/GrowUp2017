@@ -144,7 +144,7 @@
                                         <NotesTextSelection>0,0</NotesTextSelection>
                                     </MetaData>
                                     <TextSettings>
-                                        <TextSelection>0,0</TextSelection>
+                                        <TextSelection>14,0</TextSelection>
                                     </TextSettings>
                                 </BinderItem>
                                 <BinderItem ID="49" UUID="7C2D09E7-808A-4AFE-B61C-6FE995F7BA50" Type="Text" Created="2017-08-10 07:53:59 +0800" Modified="2017-08-10 07:53:59 +0800">
@@ -339,7 +339,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="Yes" Deadline="2011-04-12 20:24:39 +0800" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="No" ResetType="Midnight" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="252" Characters="496" Date="2017-08-10 09:46:00 +0800"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2017-08-11 14:16:49 +0800"></PreviousSession>
     </ProjectTargets>
     <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScrivenerProject>
