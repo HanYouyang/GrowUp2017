@@ -83,6 +83,9 @@ The &lt;$projecttitle&gt; and &lt;$fullname&gt; tags get replaced with the infor
         <Document ID="27">
             <Title>Ideas</Title>
         </Document>
+        <Document ID="35">
+            <Title>Untitled</Title>
+        </Document>
         <Document ID="30">
             <Title>Foreword</Title>
         </Document>
@@ -148,6 +151,10 @@ Scrivener project templates are flexible and are not intended to restrict you to
         </Document>
         <Document ID="31">
             <Title>Contents</Title>
+            <Text>生活当中这些事情太没意思了
+
+
+*定义*</Text>
         </Document>
     </Documents>
 </SearchIndexes>
