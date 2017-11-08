@@ -4,8 +4,6 @@
 
 
 ## GO FETCH
-
-
 ```Python
 
 # You've been caught in a burl trap!
@@ -26,7 +24,7 @@ pet.on("spawn", goFetch)
 
 
 ```
-
+此处应该注意文中写的是potion。
 
 
 ```Python
