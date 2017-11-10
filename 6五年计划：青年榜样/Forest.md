@@ -455,26 +455,81 @@ while True:
 ```
 distance和item都得是进行确认过之后才能使用的变量，那么distance也要在item使用之后得到这个变量，毕竟得先if确认，确认过后可以得到这个变量内容。
 
+但是跟下面这个比较却是在while True的情况下进行操作可能不需要这样的方式。
+
+## STAR SHOWER
+
 ```Python
+
+# Pick up coins only if they are closer than 20m.
+# Pick up all gems.
+
+while True:
+    item = hero.findNearestItem()
+    distance = hero.distanceTo(item)
+    # If the item's type is "gem"
+    # OR the distance to the item less than 20 meters:
+    if item.type == "gem" or distance < 20:
+        # Move to item's position.
+        hero.moveXY(item.pos.x,  item.pos.y)
+
+
+```
+有可能出现无法生还但是可以多提交一次，问题并不明显。
+
+
+## FOREST SHADOW
+
+```Python
+# Big ogres can't see you in the forest.
+# Attack only the small ogres in the forest.
+# Collect coins and gems only.
+# Don't leave the forest and don't eat/drink anything.
+
+while True:
+    # Find the nearest enemy.
+    # Attack it only if its type is "thrower" or "munchkin".
+    enemy = hero.findNearestEnemy()
+    distance1 = hero.distanceTo(enemy)
+    if enemy.type == "thrower" or enemy.type == "munchkin" and distance1 < 20: 
+        hero.attack(enemy)
+    # Find the nearest item.
+    # Collect it only if its type is "gem" or "coin".
+    item = hero.findNearestItem()
+    distance2 = hero.distanceTo(item)
+    if item.type != "mushroom":
+        if item.type == "gem" or item.type == "coin" and distance2 < 20:
+            hero.moveXY(item.pos.x, item.pos.y)
+    pass
+
+
+```
+注意，如果这时候判断是直接两个字符串名字带上or那么意味着明显这个判断是永远有效的，因为后者字符串不为空就意味着必然可以通过，而不是再用if条件去筛选，所以判断条件必须写完全。
+
+## SPRING SUNDER
+
+```Python
+# Certain coins and gems attract lightning.
+# The hero should only grab silver and blue gems.
+
+while True:
+    item = hero.findNearestItem()
+    # A silver coin has a value of 2.
+    # Collect if item.type is equal to "coin"
+    # AND item.value is equal to 2.
+    if item.type == "coin" and item.value == 2:
+        hero.moveXY(item.pos.x, item.pos.y)
+    # A blue gem has a value of 10.
+    # Collect if item.type is equal to "gem"
+    # AND item.value is equal to 10.
+    if item.type == "gem" and item.value == 10:
+        hero.moveXY(item.pos.x, item.pos.y)
 
 
 
 ```
 
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
+## USUAL DAY
 
 ```Python
 
