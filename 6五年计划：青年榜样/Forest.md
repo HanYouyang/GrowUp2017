@@ -532,11 +532,25 @@ while True:
 ## USUAL DAY
 
 ```Python
+# Defeat munchkins, collect coins. Everything as usual.
+# Use AND to check existence and type in one statement.
+
+while True:
+    enemy = hero.findNearestEnemy()
+    # With AND, the type is only checked if enemy exists.
+    if enemy and enemy.type == "munchkin":
+        hero.attack(enemy)
+    # Find the nearest item.
+    item = hero.findNearestItem()
+    
+    # Collect item if it exists and its type is "coin".
+    if item and item.type == "coin":
+        hero.moveXY(item.pos.x, item.pos.y)
 
 
 
 ```
-
+两个条件必须判断第一个过后才能说明第二个存在类型进行鉴定，这是题目的主旨。
 
 ```Python
 
