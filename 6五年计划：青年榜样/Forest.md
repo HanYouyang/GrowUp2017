@@ -552,61 +552,217 @@ while True:
 ```
 两个条件必须判断第一个过后才能说明第二个存在类型进行鉴定，这是题目的主旨。
 
+## TELEPORT LASSO
+
 ```Python
+# Our wizards teleport ogres from their camp here.
+# They appear for a short period and they are stunned.
+# Attack only weak and near ogres.
+
+while True:
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        distance = hero.distanceTo(enemy)
+        if  enemy.type == "munchkin" and distance < 20:
+            hero.attack(enemy)
+        # Then attack it.
+            
+# If enemy.type is "munchkin"
+    # AND the distance to it is less than 20m
+
+
+
+```
+你就算是后面用到这个变量的类型，也得是嵌套在整体确认的if中才能实现，不然对于这个变量还是不能调用也不能用来判断。
+
+## BRAWLER HUNT
+
+```Python
+# Don't worry about small and medium-sized ogres.
+# Your targets are type "brawler".
+# When a "brawler" is closer than 50m, fire artillery.
+
+while True:
+    # Find the nearest enemy and the distance to it.
+    enemy = hero.findNearestEnemy()
+    
+    # If the enemy's type is "brawler"
+    # AND the distance to it is less than 50 meters,
+    # Then say "Fire!" to signal the artillery.
+    if enemy :
+        distance = hero.distanceTo(enemy)
+        
+        if enemy.type == "brawler" and distance < 50:
+            hero.say("Fire!")
+    pass
+
+```
+理论上可以连续将几个内容一起认定，但是distance还是得用到enemy，确认之后才能进行读取和判断。
+
+## PASSING THROUGH
+
+```Python
+# Don't insult this tribe of peaceful ogres.
+
+while True:
+    item = hero.findNearestItem()
+    if item:
+        # If item.type IS NOT EQUAL TO "gem"
+        if item.type != "gem":
+            # Then follow your pet wolf.
+            hero.moveXY(pet.pos.x, pet.pos.y)
+        # Else:
+        else:
+            # Move to the gem's position.
+            hero.moveXY(item.pos.x, item.pos.y)
+
+
+
+```
+宠物已经设定好了方向和位置，所以只要跟着走到相应的位置就好了。
+
+## USEFUL COMPITITORS
+
+```Python
+# The coin field has been seeded with vials of deadly poison.
+# Ogres are attacking, while their peons are trying to steal your coins!
+# Attack the enemy only if the type is NOT equal to "peon".
+
+while True:
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        if enemy.type != "peon":
+            hero.attack(enemy)
+    item = hero.findNearestItem()
+    if item:
+        # Gather the item only if the type is NOT equal to "poison".
+        if item.type != "poison":
+            hero.moveXY(item.pos.x, item.pos.y)
+        pass
+
+
+
+```
+练习了一下不等于的用法。
+
+## WONDERGLADE
+
+
+```Python
+# You need to collect several items.
+# But, the burl wants the gems!
+# Pick up all appearing items EXCEPT gems.
+
+while True:a
+    item = hero.findNearestItem()
+    if item:
+        # If item.type isn't equal to "gem":
+        if item.type != "gem":
+            
+            # Move to the item's position.
+            hero.moveXY(item.pos.x, item.pos.y)
 
 
 
 ```
 
 
+## CURSED WONDERGLADE
+
 ```Python
+# Wonderglade has changed since our last visit.
+# Ogres cursed it and we should defeat them.
+# The burl still is collecting gems, so don't touch them.
+# Also don't attack the burl.
+
+while True:
+    # Find the nearest item.
+    # Collect it (if it exists) only if its type isn't "gem".
+    item = hero.findNearestItem()
+    if item and item.type != "gem":
+        hero.moveXY(item.pos.x, item.pos.y)
+    
+    # Find the nearest enemy.
+    # Attack it if it exists and its type isn't "burl".
+    enemy = hero.findNearestEnemy()
+    if enemy and enemy.type != "burl":
+        hero.attack(enemy)
+    pass
 
 
 
 ```
 
+## LOGICAL PATH
+
 
 ```Python
+# Get two secret true/false values from the wizard.
+hero.moveXY(14, 24)
+secretA = hero.findNearestFriend().getSecretA()
+secretB = hero.findNearestFriend().getSecretB()
+
+# If BOTH secretA and secretB are true, take the high path; otherwise, take the low path.
+# Check the guide for notes on how to write logical expressions.
+secretC = secretA and secretB
+if secretC:
+    hero.moveXY(20, 33)
+else:
+    hero.moveXY(20, 15)
+hero.moveXY(26, 24)
+
+# If EITHER secretA or secretB is true, take the high path.
+if secretA or secretB:
+    hero.moveXY(32, 33)
+else:
+    hero.moveXY(32, 15)
+hero.moveXY(38, 24)
+
+# If secretB is NOT true, take the high path.
+if not secretB:
+    hero.moveXY(44, 33)
+else:
+    hero.moveXY(44, 15)
+hero.moveXY(50, 23)
 
 
 
 ```
 
+## LOGICAL CIRCLE
 
 ```Python
+# Move to the wizard and get their secret values.
+hero.moveXY(20, 24)
+secretA = hero.findNearestFriend().getSecretA()
+secretB = hero.findNearestFriend().getSecretB()
+secretC = hero.findNearestFriend().getSecretC()
+
+# If ALL three values are true, take the high path. Otherwise, take the low path.
+secretD = secretA and secretB and secretC
+if secretD:
+    hero.moveXY(30, 33)
+else:
+    hero.moveXY(30, 15)
+
+# If ANY of the three values are true, take the left path. Otherwise, go right.
+secretE = secretA or secretB or secretC
+if secretE:
+    hero.moveXY(20, 24)
+else:
+    hero.moveXY(40, 24)
+
+# If ALL five values are true, take the high path. Otherwise, take the low path.
+secretF = secretA and secretB and secretC and secretD and secretE
+if secretF:
+    hero.moveXY(30, 33)
+else:
+    hero.moveXY(30, 15)
 
 
 
 ```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
+## LOGICAL CONCLUSION
 
 ```Python
 
