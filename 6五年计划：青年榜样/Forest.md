@@ -1,9 +1,59 @@
-# Forest
+# CodeCombat
+
+## 地牢
+
+**code block**
+
+findnearstEnemy()
+
+bool 可以类似字符串使用
+
+寻找敌人可以用各种标签来确定区域敌人，比如right和left。
+
+对于target最好还是if先确定之后再选择打击
+
+函数调用不是方法调用，后者确实需要主体。
+
+函数的出现就是因为要放到循环这种代码块里面，需要成为一个整体。
+
+
+## 森林
+
+
+物品有个item.pos.x/y位置能够进行自动选择
+
+
+on后面设定好一个事件，然后由事件进行处理。
+
+event并不是一个函数，设定完这个函数需要变量(event)，而后事件调不用带()。
+
+event的作用就是同步进行，机器并不能确定每个时间步是否需要同时运行某些内容，但是event就是给了一个并行运行的机会。
 
 
 
 
-## GO FETCH
+## Web development
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Forest
+
+
+
+
+### GO FETCH
 ```Python
 
 # You've been caught in a burl trap!
@@ -34,7 +84,7 @@ pet.on("spawn", goFetch)
 ```
 
 
-## Long Road
+### Long Road
 ```Python
 # Move to the right.
 
@@ -61,7 +111,7 @@ hero.moveXY(76, 35)
 
 
 
-## Forest Cannon Dancing
+### Forest Cannon Dancing
 ```Python
 # Your pet should run back and forth on the X marks.
 # The hero should cheer the whole time!
@@ -84,7 +134,7 @@ while True:
 
 ```
 
-## REWARD AND RUINATION
+### REWARD AND RUINATION
 
 ```Python
 # It seems like the Ogre Chieftain is stealing your gems!
@@ -109,7 +159,7 @@ while True:
 注意此时需要把两个位置之间加上连接，传递给程序会自动进行分词处理并且说明该如何理解这个内容。
 
 
-## DEJA BREW
+### DEJA BREW
 
 ```Python
 # You can add strings together, and add numbers into strings.
@@ -135,7 +185,7 @@ while True:
 
 ```
 
-## BACKWOODS BOMBARIDER
+### BACKWOODS BOMBARIDER
 
 ```Python
 # The pos property is an object with x and y properties.
@@ -157,7 +207,7 @@ while True:
 
 
 ```
-## THE WIZARD'S DOOR
+### THE WIZARD'S DOOR
 
 
 ```Python
@@ -186,7 +236,7 @@ hero.say(aga)
 
 ```
 
-## THE WIZARD'S HAUNT
+### THE WIZARD'S HAUNT
 
 ```Python
 # Move to Zsofia and get the secret number from her.
@@ -215,7 +265,7 @@ hero.say(san)
 
 ```
 
-## THE WIZARD'S PLANE
+### THE WIZARD'S PLANE
 
 ```Python
 # Move to Eszter and get the secret number from her.
@@ -249,7 +299,7 @@ hero.say(csi)
 
 ```
 
-## COINRUMBERS
+### COINRUMBERS
 
 ```Python
 # Follow the trail of coins to the red X at the exit.
@@ -270,7 +320,7 @@ while True:
 
 ```
 
-## WHITE RABIT
+### WHITE RABIT
 
 ```Python
 # Follow the lightstone to navigate the traps.
@@ -290,7 +340,7 @@ while True:
 
 ```
 
-## CHAMELEONS
+### CHAMELEONS
 
 ```Python
 
@@ -309,7 +359,7 @@ while True:
 
 ```
 
-## BLIND DISTANCE
+### BLIND DISTANCE
 
 ```Python
 # Tell the wizard the distance to the coming ogres.
@@ -334,7 +384,7 @@ while True:
 
 ```
 
-## HIT AND FREEZE
+### HIT AND FREEZE
 
 ```Python
 
@@ -342,7 +392,7 @@ while True:
 
 ```
 
-## BURLBOLE GROVE
+### BURLBOLE GROVE
 
 ```Python
 # Don't attack the burls!
@@ -370,7 +420,7 @@ while True:
 
 
 ```
-## COIN HUNTER
+### COIN HUNTER
 
 ```Python
 
@@ -400,7 +450,7 @@ while True:
 
 
 ```
-## SALTED EARTH
+### SALTED EARTH
 
 ```Python
 
@@ -423,7 +473,7 @@ while True:
 需要对具体内容有所了解，不能仅仅获得就可以。获得就是走到那个位置去就可以。
 
 
-## METAL DETECTOR
+### METAL DETECTOR
 
 ```Python
 
@@ -457,7 +507,7 @@ distance和item都得是进行确认过之后才能使用的变量，那么dista
 
 但是跟下面这个比较却是在while True的情况下进行操作可能不需要这样的方式。
 
-## STAR SHOWER
+### STAR SHOWER
 
 ```Python
 
@@ -478,7 +528,7 @@ while True:
 有可能出现无法生还但是可以多提交一次，问题并不明显。
 
 
-## FOREST SHADOW
+### FOREST SHADOW
 
 ```Python
 # Big ogres can't see you in the forest.
@@ -506,7 +556,7 @@ while True:
 ```
 注意，如果这时候判断是直接两个字符串名字带上or那么意味着明显这个判断是永远有效的，因为后者字符串不为空就意味着必然可以通过，而不是再用if条件去筛选，所以判断条件必须写完全。
 
-## SPRING SUNDER
+### SPRING SUNDER
 
 ```Python
 # Certain coins and gems attract lightning.
@@ -529,7 +579,7 @@ while True:
 
 ```
 
-## USUAL DAY
+### USUAL DAY
 
 ```Python
 # Defeat munchkins, collect coins. Everything as usual.
@@ -552,7 +602,7 @@ while True:
 ```
 两个条件必须判断第一个过后才能说明第二个存在类型进行鉴定，这是题目的主旨。
 
-## TELEPORT LASSO
+### TELEPORT LASSO
 
 ```Python
 # Our wizards teleport ogres from their camp here.
@@ -575,7 +625,7 @@ while True:
 ```
 你就算是后面用到这个变量的类型，也得是嵌套在整体确认的if中才能实现，不然对于这个变量还是不能调用也不能用来判断。
 
-## BRAWLER HUNT
+### BRAWLER HUNT
 
 ```Python
 # Don't worry about small and medium-sized ogres.
@@ -599,7 +649,7 @@ while True:
 ```
 理论上可以连续将几个内容一起认定，但是distance还是得用到enemy，确认之后才能进行读取和判断。
 
-## PASSING THROUGH
+### PASSING THROUGH
 
 ```Python
 # Don't insult this tribe of peaceful ogres.
@@ -621,7 +671,7 @@ while True:
 ```
 宠物已经设定好了方向和位置，所以只要跟着走到相应的位置就好了。
 
-## USEFUL COMPITITORS
+### USEFUL COMPITITORS
 
 ```Python
 # The coin field has been seeded with vials of deadly poison.
@@ -645,7 +695,7 @@ while True:
 ```
 练习了一下不等于的用法。
 
-## WONDERGLADE
+### WONDERGLADE
 
 
 ```Python
@@ -667,7 +717,7 @@ while True:a
 ```
 
 
-## CURSED WONDERGLADE
+### CURSED WONDERGLADE
 
 ```Python
 # Wonderglade has changed since our last visit.
@@ -693,7 +743,7 @@ while True:
 
 ```
 
-## LOGICAL PATH
+### LOGICAL PATH
 
 
 ```Python
@@ -729,7 +779,7 @@ hero.moveXY(50, 23)
 
 ```
 
-## LOGICAL CIRCLE
+### LOGICAL CIRCLE
 
 ```Python
 # Move to the wizard and get their secret values.
@@ -762,7 +812,7 @@ else:
 
 
 ```
-## LOGICAL CONCLUSION
+### LOGICAL CONCLUSION
 
 ```Python
 
