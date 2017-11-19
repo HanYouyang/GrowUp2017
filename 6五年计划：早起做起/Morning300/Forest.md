@@ -816,13 +816,58 @@ else:
 
 ```Python
 
+# Move to Eszter and get three secret values from her.
+hero.moveXY(24, 16)
+secretA = hero.findNearestFriend().getSecretA()
+secretB = hero.findNearestFriend().getSecretB()
+secretC = hero.findNearestFriend().getSecretC()
+
+# Say "TRUE" to Tamas if A AND B are true, OR if C is true. Otherwise, say "FALSE."
+# Remember to use parentheses to do your logic in the proper order.
+tam = (secretA and secretB) or secretC
+hero.moveXY(19, 26)
+hero.say(tam)
+
+# Say "TRUE" to Zsofi if A OR B is true, AND if C is true. Otherwise, say "FALSE."
+zso = (secretA or secretB) and secretC
+hero.moveXY(26, 36)
+hero.say(zso)
+
+# Say "TRUE" to Istvan if A OR C is true, AND if B OR C is true. Otherwise, say "FALSE."
+ist = (secretA or secretC) and (secretC or secretB)
+hero.moveXY(37, 34)
+hero.say(ist)
+
+# Say "TRUE" to Csilla if A AND B are true, OR if B is true AND C is NOT true. Otherwise, say "FALSE."
+csi = (secretA and secretB) or (secretB and not secretC)
+hero.moveXY(40, 22)
+hero.say(csi)
 
 
 ```
+由于最后说明实际运行中还是检查出来一个拼写错误，证明运行和实际提交还是有一定区别的，要真的整理好内容。
 
-
+### RETURN TO THORNBUSH FARM
 ```Python
 
+# The function maybeBuildTrap defines TWO parameters!
+def maybeBuildTrap(x, y):
+    # Use x and y as the coordinates to move to.
+    hero.moveXY(x, y)
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        pass
+        # Use buildXY to build a "fire-trap" at the given x and y.
+        hero.buildXY("fire-trap", x, y)
+while True:
+    # This calls maybeBuildTrap, with the coordinates of the top entrance.
+    maybeBuildTrap(43, 50)
+    
+    # Now use maybeBuildTrap at the left entrance!
+    maybeBuildTrap(25, 34)
+    # Now use maybeBuildTrap at the bottom entrance!
+    maybeBuildTrap(43, 20)
+    
 
 
 ```
