@@ -872,108 +872,337 @@ while True:
 
 ```
 
-
+### CLOSED CROSSROAD 
 ```Python
+# Only build if you see an enemy.
 
+# The function defines THREE parameters.
+def maybeBuildSomething(buildType, x, y):
+    # Move to the position specified by x and y parameters.
+    hero.moveXY(x, y)
+    # Find the nearest enemy.
+    enemy = hero.findNearestEnemy()
+    
+    # If there is an enemy
+    if enemy:
+        # then use buildXY with buildType, x, and y
+        hero.buildXY(buildType, x, y)
+    pass
+    
+while True:
+    # Call maybeBuildSomething with "fire-trap" and the coordinates of the bottom X.
+    maybeBuildSomething("fire-trap", 40, 20)
+    # Call maybeBuildSomething, with "fence" at the left X!
+    maybeBuildSomething("fence", 26, 34)
+    # Call maybeBuildSomething with "fire-trap" at the top X!
+    maybeBuildSomething("fire-trap", 40, 50)
+    # Call maybeBuildSomething with "fence" at the right X!
+    maybeBuildSomething("fence", 54, 34)
 
 
 ```
 
+### GREED TRAPS
+```Python
+# Patrol and place traps ONLY if you see a coin.
 
+# Write this function.
+def maybeBuildTrap(x, y):
+    # Move to the given x,y postion
+    hero.moveXY(x, y)
+    # Search a coin and  if you see it, build a "fire-trap"
+    items = hero.findNearestItem()
+    if items:
+        if items.type == "coin":
+            hero.buildXY("fire-trap", x, y)
+    pass
+
+while True:
+    # Call maybeBuildTrap for the top left passage.
+    maybeBuildTrap(12, 56)
+    # Now for the top right passage.
+    maybeBuildTrap(68, 56)
+    # Now for the bottom right passage.
+    maybeBuildTrap(68, 12)
+    # Now for the bottom left passage.
+    maybeBuildTrap(12, 12)
+```
+
+### COINUCOPIA
+```Python
+# Press Submit when you are ready to place flags.
+# Flag buttons appear in the lower left after pressing Submit.
+while True:
+    flag = hero.findFlag()
+    if flag:
+        hero.pickUpFlag(flag)
+    else:
+        hero.say("Place a flag for me to go to.")
+```
+
+### RETURN TO THORNBUSH FARM A
+```Python
+# The function maybeBuildTrap defines TWO parameters!
+def maybeBuildTrap(x, y):
+    # Use x and y as the coordinates to move to.
+    hero.moveXY(x, y)
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        pass
+        # Use buildXY to build a "fire-trap" at the given x and y.
+        hero.buildXY("fire-trap", x, y)
+while True:
+    # This calls maybeBuildTrap, with the coordinates of the left entrance.
+    maybeBuildTrap(20, 34)
+    
+    # Now use maybeBuildTrap at the bottom entrance!
+    maybeBuildTrap(38, 20)
+    # Now use maybeBuildTrap at the right entrance!
+    maybeBuildTrap(56, 34)
+```
+
+### COPPER MEADOWS
+```Python
+# Collect all the coins in each meadow.
+# Use flags to move between meadows.
+# Press Submit when you are ready to place flags.
+
+while True:
+    flag = hero.findFlag()
+    if flag:
+        pass  # pass is a placeholder, it has no effect.
+        # Pick up the flag.
+        hero.pickUpFlag(flag)
+    else:
+        # Automatically move to the nearest item you see.
+        item = hero.findNearestItem()
+        if item:
+            position = item.pos
+            x = position.x
+            y = position.y
+            hero.moveXY(x, y)
+
+```
+
+### RETURN TO THORNBUSH FARM B
+```Python
+# The function maybeBuildTrap defines TWO parameters!
+def maybeBuildTrap(x, y):
+    # Use x and y as the coordinates to move to.
+    hero.moveXY(x, y)
+    enemy = hero.findNearestEnemy()
+    if enemy:
+        pass
+        # Use buildXY to build a "fire-trap" at the given x and y.
+        hero.buildXY("fire-trap", x, y)
+while True:
+    # This calls maybeBuildTrap, with the coordinates of the bottom entrance.
+    maybeBuildTrap(38, 20)
+    
+    # Now use maybeBuildTrap at the right entrance!
+    maybeBuildTrap(56, 34)
+    # Now use maybeBuildTrap at the top entrance!
+    maybeBuildTrap(38, 48)
+
+```
+
+### DROP THE FLAG
 ```Python
 
+# Put flags where you want to build traps.
+# When you're not building traps, pick up coins!
+
+while True:
+    flag = hero.findFlag()
+    if flag:
+        # How do we get flagX and flagY from the flag's pos?
+        # (Look below at how to get x and y from items.)
+        hero.buildXY("fire-trap", flagX, flagY)
+        hero.pickUpFlag(flag)
+    else:
+        item = hero.findNearestItem()
+        if item:
+            itemPos = item.pos
+            itemX = itemPos.x
+            itemY = itemPos.y
+            hero.moveXY(itemX, itemY)
 
 
 ```
 
-
+### BACKWOODS TREASURE
 ```Python
+# Collect 100 gold from two or three groves.
+# If you win, it gets harder (and more rewarding).
+# If you lose, you must wait a day before you can resubmit.
+# Remember, each submission gets a new random seed.
 
+def getcoinAfterkillenemy():
+    enemy = hero.findNearestEnemy()
+    item = hero.findNearestItem()
+    
+    if enemy:
+        hero.attack(enemy)
+    else:
+        if item:
+            hero.moveXY(item.pos.x, item.pos.y)
+
+while True:
+    getcoinAfterkillenemy()
 
 
 ```
 
+### DEADLY PURSUIT
+```Python
+# Grab all the coins and use flags to build traps behind
+# you to deal with those ogres.
+
+while True:
+    flag = hero.findFlag()
+    item = hero.findNearestItem()
+    if flag:
+        hero.moveXY(flag.pos.x, flag.pos.y)
+        hero.buildXY("fire-trap", flag.pos.x, flag.pos.y)
+        hero.pickUpFlag(flag)
+    elif item:
+        hero.moveXY(item.pos.x, item.pos.y)
+      
+```
+此关不能仅仅是测试，直接就开始必须要进行互动了，必须要不停点上旗子让英雄过去设定陷阱。
+
+### MIND THE TRAP
 
 ```Python
+# If you try to attack a distant enemy, your hero will charge toward it, ignoring all flags.
+# You'll need to make sure you only attack enemies who are close to you!
 
+while True:
+    flag = hero.findFlag()
+    enemy = hero.findNearestEnemy()
+    
+    if flag:
+        # Pick up the flag.
+        hero.pickUpFlag(flag)
+        hero.say("I should pick up the flag.")
+    elif enemy:
+        # Only attack if the enemy distance is < 10 meters
+        distance = hero.distanceTo(enemy)
+        if distance < 10:
+            hero.attack(enemy)
+```
 
+### SINGAL CORPOSE
+```Python
+# You can use flags to choose different tactics.
+# In this level, the green flag will mean you want to move to the flag.
+# The black flag means you want to cleave at the flag.
+# The doctor will heal you at the Red X
+
+while True:
+    green = hero.findFlag("green")
+    black = hero.findFlag("black")
+    nearest = hero.findNearestEnemy()
+    
+    if green:
+        hero.pickUpFlag(green)
+    elif black and hero.isReady("cleave"):
+        hero.pickUpFlag(black)
+        # Cleave!
+        hero.cleave(nearest)
+    elif nearest and hero.distanceTo(nearest) < 10:
+        # Attack!
+        hero.attack(nearest)
+        pass
 
 ```
 
-
+### REACH FORAGER
 ```Python
+# Use "if" and "else if" to handle any situation.
+# Put it all together to defeat enemies and pick up coins!
+# Make sure you bought great armor from the item shop! 400 health recommended.
 
-
+while True:
+    flag = hero.findFlag()
+    enemy = hero.findNearestEnemy()
+    item = hero.findNearestItem()
+    if flag:
+        # What happens when I find a flag?
+        hero.pickUpFlag(flag)
+    elif enemy:
+        # What happens when I find an enemy?
+        hero.attack(enemy)
+    elif item:
+        # What happens when I find an item?
+        hero.moveXY(item.pos.x, item.pos.y)
+        
 
 ```
 
-
+### SIEGE OF
 ```Python
-
-
+# Help your friends beat the minions that Thoktar sends against you.
+# You'll need great equipment and strategy to win.
+# Flags might help, but it's up to you–be creative!
+# There is a doctor behind the fence. Move to the X to get healed!
+while True:
+    enemy = hero.findNearestEnemy()
+    
+    flag = hero.findFlag()
+    if flag:
+        hero.pickUpFlag(flag)
+    else:
+        if enemy:
+            hero.attack(enemy)
 
 ```
+## STONE
 
-
+### THE DUNES
 ```Python
-
-
-
+# Collect coins. Ignore "sand-yak"s and "burl"s.
+while True:
+    enemy = hero.findNearestEnemy()
+    item = hero.findNearestItem()
+    if enemy:
+        if enemy.type == "sand-yak" or enemy.type == "burl":
+            # Don't attack! Collect coins.
+            hero.moveXY(item.pos.x, item.pos.y)
+            pass
+        else:
+            # Else, attack.
+            hero.attack(enemy)
+            pass
+        
+    elif item:
+        # Collect coins: move to item's position.
+        hero.moveXY(item.pos.x, item.pos.y)
+        pass
+    else:
+        hero.moveXY(41, 31)
 ```
 
-
+### THE MIGHTY SAND YAK
 ```Python
+# Let yaks get close, then move 10m right to dodge.
+# Dodge 4 yaks to complete the level.
 
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
-
-```
-
-
-```Python
-
-
+while True:
+    # Get hero's current x and y position.
+    x = hero.pos.x
+    y = hero.pos.y
+    
+    # Find the nearest yak.
+    yak = hero.findNearestEnemy()
+    
+    # If the distanceTo the yak is less than 10:
+    if hero.distanceTo(yak) < 10:
+        # To move right, add 10 to hero's x position.
+        x += 10
+        # Use moveXY(x, y) to move!
+        hero.moveXY(x, y)
+        pass
 
 ```
 
