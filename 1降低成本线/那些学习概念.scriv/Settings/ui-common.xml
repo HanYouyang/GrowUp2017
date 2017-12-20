@@ -15,7 +15,7 @@
             <ItemID>21053052-E47F-4772-BCB4-17EC6B0C2854</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>BED2368C-C7D9-4C99-83D5-0EDC809E7EA6</ItemID>
+            <ItemID>E34C7156-B14D-4B23-8FE1-41850AC04E31</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -23,7 +23,7 @@
         <Collapse>CustomMetaData</Collapse>
         <FootnoteNumbers Prompt="No">No</FootnoteNumbers>
     </Inspector>
-    <Split>Vertical</Split>
+    <Split>None</Split>
     <BinderAffects>Current</BinderAffects>
     <Labels>
         <Binder FullWidth="No">No</Binder>
@@ -58,7 +58,7 @@
         <PageLayout Facing="No">No</PageLayout>
         <TypewriterScrolling>Yes</TypewriterScrolling>
     </FullScreen>
-    <Editors Primary="Editor1">
+    <Editors Primary="Editor2">
         <Editor1>
             <View>
                 <ShowHeader>Yes</ShowHeader>
@@ -66,9 +66,6 @@
                 <GroupsViewMode>Corkboard</GroupsViewMode>
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
-                <Content>
-                    <ItemID>BED2368C-C7D9-4C99-83D5-0EDC809E7EA6</ItemID>
-                </Content>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
@@ -114,7 +111,7 @@
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>8395D6BF-BA44-42B0-9073-928F7595B7AF</ItemID>
+                    <ItemID>E34C7156-B14D-4B23-8FE1-41850AC04E31</ItemID>
                 </Content>
             </View>
             <Text>
