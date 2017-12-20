@@ -30,8 +30,8 @@
             </Ebook>
         </Options>
         <MetaData>
-            <ProjectTitle>理解加密货币</ProjectTitle>
-            <ProjectAbbreviatedTitle>理解加密货币</ProjectAbbreviatedTitle>
+            <ProjectTitle>思考与写作应该懂什么</ProjectTitle>
+            <ProjectAbbreviatedTitle>思考与写作应该懂什么</ProjectAbbreviatedTitle>
             <Authors>
                 <Author Role="aut">韩悠阳</Author>
             </Authors>
@@ -50,8 +50,8 @@
     <FormatSettings>
         <Format ID="DEFAULT">
             <SectionLayouts>
-                <Type ID="08CE0F15-5697-453A-9DDB-6A45618C2D9A">NEW-PAGE-HEADER-WITH-TEXT</Type>
-                <Type ID="B9C3D8B1-AA71-4244-808A-31EE94003FFD">TEXT-SECTION</Type>
+                <Type ID="119D350D-BD02-4A93-AAEB-82D7CDC07ECF">NEW-PAGE-HEADER-WITH-TEXT</Type>
+                <Type ID="4718AA91-AF92-4A1D-90F4-95366A17CA88">TEXT-SECTION</Type>
             </SectionLayouts>
         </Format>
     </FormatSettings>

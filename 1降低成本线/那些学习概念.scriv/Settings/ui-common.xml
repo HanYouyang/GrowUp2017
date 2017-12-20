@@ -15,7 +15,7 @@
             <ItemID>21053052-E47F-4772-BCB4-17EC6B0C2854</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>6D86ACCA-F2C8-4CA2-854D-77F1973FC3AD</ItemID>
+            <ItemID>BED2368C-C7D9-4C99-83D5-0EDC809E7EA6</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -64,14 +64,11 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Corkboard</GroupsViewMode>
-                <CurrentViewMode>Corkboard</CurrentViewMode>
+                <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>6D86ACCA-F2C8-4CA2-854D-77F1973FC3AD</ItemID>
+                    <ItemID>BED2368C-C7D9-4C99-83D5-0EDC809E7EA6</ItemID>
                 </Content>
-                <Selection>
-                    <ItemID>0349806F-CA2C-4FFC-8DF1-FD469E617BD9</ItemID>
-                </Selection>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>

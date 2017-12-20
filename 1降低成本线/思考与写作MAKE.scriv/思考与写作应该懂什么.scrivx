@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="53C11A2B-3341-4797-A5CE-AF1E5ABF4E96" Version="2.0" Creator="SCRMAC-3.0-75" Device="hanyouyangdeMacBook-Pro" Author="韩悠阳" Modified="2017-12-20 12:10:21 +0800" ModID="6FED51E5-C199-4E96-B93C-5111C0BCF2EA">
+<ScrivenerProject Identifier="1FB60F90-F099-4F93-9EE9-F924B7A719DF" Version="2.0" Creator="SCRMAC-3.0-75" Device="hanyouyangdeMacBook-Pro" Author="韩悠阳" Modified="2017-12-20 21:00:31 +0800" ModID="6BDBB26B-FB82-425C-BEAE-E4D64511D35F">
     <Binder>
-        <BinderItem UUID="6AED76B8-3BD0-46A3-82B8-26174EF0CC0D" Type="DraftFolder" Created="2017-12-20 12:07:23 +0800" Modified="2017-12-20 12:07:23 +0800">
+        <BinderItem UUID="CFFFB877-CA9E-49C2-AC41-378C1E141574" Type="DraftFolder" Created="2017-12-20 20:59:17 +0800" Modified="2017-12-20 20:59:17 +0800">
             <Title>草稿</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem UUID="0F89111E-CA2F-4203-87BF-1F74A81D2D6E" Type="Text" Created="2017-12-20 12:07:23 +0800" Modified="2017-12-20 12:07:23 +0800">
+                <BinderItem UUID="6F817DFE-E935-430B-AB97-755025BE9A0B" Type="Text" Created="2017-12-20 20:59:17 +0800" Modified="2017-12-20 20:59:17 +0800">
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -17,49 +17,23 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem UUID="94638E6F-48B9-4C62-B818-1FE6D510113D" Type="ResearchFolder" Created="2017-12-20 12:07:23 +0800" Modified="2017-12-20 12:07:23 +0800">
+        <BinderItem UUID="FD92F9AE-EB9D-4808-A078-211213343E66" Type="ResearchFolder" Created="2017-12-20 20:59:17 +0800" Modified="2017-12-20 20:59:17 +0800">
             <Title>研究</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
             </MetaData>
             <Children>
-                <BinderItem UUID="7F0A2AA1-302F-4F25-BBEE-A9AC5B79D898" Type="Folder" Created="2017-12-20 12:07:50 +0800" Modified="2017-12-20 12:07:58 +0800">
-                    <Title>社会学理解</Title>
+                <BinderItem UUID="0228BBEC-7B27-431B-9A91-DAE6AB0A92C4" Type="Text" Created="2017-12-20 12:08:00 +0800" Modified="2017-12-20 20:49:40 +0800">
+                    <Title>大体想法</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
                     <TextSettings>
-                        <TextSelection>0,0</TextSelection>
+                        <TextSelection>167,0</TextSelection>
                     </TextSettings>
                 </BinderItem>
-                <BinderItem UUID="6222FC3F-918A-48B8-818A-19864374A301" Type="Text" Created="2017-12-20 12:08:00 +0800" Modified="2017-12-20 12:08:00 +0800">
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="B2EAA056-DB39-49B2-AB20-B58AA14B6F55" Type="Folder" Created="2017-12-20 12:08:03 +0800" Modified="2017-12-20 12:08:07 +0800">
-                    <Title>心理学理解</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="4D6CB71C-C214-44AE-B6AA-F51C852A4864" Type="Folder" Created="2017-12-20 12:08:11 +0800" Modified="2017-12-20 12:08:14 +0800">
-                    <Title>技术理解</Title>
-                    <MetaData>
-                        <IncludeInCompile>Yes</IncludeInCompile>
-                    </MetaData>
-                    <TextSettings>
-                        <TextSelection>0,0</TextSelection>
-                    </TextSettings>
-                </BinderItem>
-                <BinderItem UUID="061AA78E-4DE8-43C2-9F4D-9A8A7E0E8C0C" Type="Folder" Created="2017-12-20 12:08:19 +0800" Modified="2017-12-20 12:08:29 +0800">
-                    <Title>逻辑学检验</Title>
+                <BinderItem UUID="53BBA925-238B-4FC6-9CDC-578FE5EAB621" Type="Folder" Created="2017-12-20 12:08:19 +0800" Modified="2017-12-20 20:47:39 +0800">
+                    <Title>逻辑学理解</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                     </MetaData>
@@ -67,7 +41,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <Children>
-                        <BinderItem UUID="E6A35421-C89C-4A86-875F-C9A2C18260FB" Type="Text" Created="2017-12-20 12:10:13 +0800" Modified="2017-12-20 12:10:13 +0800">
+                        <BinderItem UUID="6AAF1B4F-C7CF-40EE-BC4D-BCC16BB559A3" Type="Text" Created="2017-12-20 12:10:13 +0800" Modified="2017-12-20 12:10:13 +0800">
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -77,9 +51,36 @@
                         </BinderItem>
                     </Children>
                 </BinderItem>
+                <BinderItem UUID="5B02BE40-9938-4C44-97D8-56A52245FA01" Type="Folder" Created="2017-12-20 12:08:03 +0800" Modified="2017-12-20 20:47:57 +0800">
+                    <Title>心理学效应</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D1564FBD-37C0-4E8F-AB72-803C88A11B7F" Type="Folder" Created="2017-12-20 12:08:11 +0800" Modified="2017-12-20 20:48:23 +0800">
+                    <Title>反向思考</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B286AEBD-F9C7-4875-85F4-EAC4DB96B388" Type="Folder" Created="2017-12-20 20:48:55 +0800" Modified="2017-12-20 20:49:02 +0800">
+                    <Title>独立思考追问+脑图</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem UUID="CA4EDC33-B0E8-402C-8A67-1C0629760A5D" Type="TrashFolder" Created="2017-12-20 12:07:23 +0800" Modified="2017-12-20 12:07:23 +0800">
+        <BinderItem UUID="9FE14A08-3DB2-4CDA-9544-60A19AD6D50E" Type="TrashFolder" Created="2017-12-20 20:59:17 +0800" Modified="2017-12-20 20:59:17 +0800">
             <Title>废纸篓</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
@@ -87,28 +88,28 @@
         </BinderItem>
     </Binder>
     <Collections>
-        <Collection Type="Binder" ID="0A08EE03-A13A-4559-9F60-A80ECFFD6DA0" Color="0.924849 0.924014 0.949681">
+        <Collection Type="Binder" ID="4CBD6122-3DC9-4737-8D30-999E92317E6D" Color="0.924849 0.924014 0.949681">
             <Title>活页夹</Title>
         </Collection>
-        <Collection Type="RecentSearch" ID="F1698B31-35DE-408A-B93C-963752352D0A" Color="0.922176 0.818589 0.999618">
+        <Collection Type="RecentSearch" ID="D972217D-9367-48AE-A1B3-719DB0A8CBDE" Color="0.922176 0.818589 0.999618">
             <Title>搜索结果</Title>
         </Collection>
     </Collections>
     <SectionTypes>
         <TypeDefinitions>
-            <Type ID="08CE0F15-5697-453A-9DDB-6A45618C2D9A">标题</Type>
-            <Type ID="22CB204E-E2CE-49D6-8251-796C8DD02E78">副标题</Type>
-            <Type ID="B9C3D8B1-AA71-4244-808A-31EE94003FFD">稿件</Type>
+            <Type ID="119D350D-BD02-4A93-AAEB-82D7CDC07ECF">标题</Type>
+            <Type ID="9158CB93-3F94-489D-B94B-FFD21F3DE91F">副标题</Type>
+            <Type ID="4718AA91-AF92-4A1D-90F4-95366A17CA88">稿件</Type>
         </TypeDefinitions>
         <LevelTypes>
             <Folders>
-                <Type>08CE0F15-5697-453A-9DDB-6A45618C2D9A</Type>
+                <Type>119D350D-BD02-4A93-AAEB-82D7CDC07ECF</Type>
             </Folders>
             <Containers>
-                <Type>B9C3D8B1-AA71-4244-808A-31EE94003FFD</Type>
+                <Type>4718AA91-AF92-4A1D-90F4-95366A17CA88</Type>
             </Containers>
             <Files>
-                <Type>B9C3D8B1-AA71-4244-808A-31EE94003FFD</Type>
+                <Type>4718AA91-AF92-4A1D-90F4-95366A17CA88</Type>
             </Files>
         </LevelTypes>
     </SectionTypes>
@@ -139,11 +140,11 @@
         </StatusItems>
     </StatusSettings>
     <ProjectTargets Notify="No">
-        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-12-20 12:07:21 +0800" IgnoreDeadline="Yes">0</DraftTarget>
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-12-20 20:59:15 +0800" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2017-12-20 12:10:04 +0800"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2017-12-20 21:01:03 +0800"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2017-12-20 12:07:21 +0800">
+    <RecentWritingHistory Date="2017-12-20 20:59:15 +0800">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>

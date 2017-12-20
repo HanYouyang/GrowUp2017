@@ -5,11 +5,12 @@
         <SelectedCollection>0</SelectedCollection>
         <SubdocumentCounts>No</SubdocumentCounts>
         <ExpandedItems>
-            <ItemID>6AED76B8-3BD0-46A3-82B8-26174EF0CC0D</ItemID>
-            <ItemID>94638E6F-48B9-4C62-B818-1FE6D510113D</ItemID>
+            <ItemID>CFFFB877-CA9E-49C2-AC41-378C1E141574</ItemID>
+            <ItemID>FD92F9AE-EB9D-4808-A078-211213343E66</ItemID>
+            <ItemID>5B02BE40-9938-4C44-97D8-56A52245FA01</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>061AA78E-4DE8-43C2-9F4D-9A8A7E0E8C0C</ItemID>
+            <ItemID>5B02BE40-9938-4C44-97D8-56A52245FA01</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -61,7 +62,7 @@
                 <CurrentViewMode>Corkboard</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>061AA78E-4DE8-43C2-9F4D-9A8A7E0E8C0C</ItemID>
+                    <ItemID>5B02BE40-9938-4C44-97D8-56A52245FA01</ItemID>
                 </Content>
             </View>
             <Text>
