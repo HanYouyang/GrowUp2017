@@ -7,6 +7,7 @@
         <ExpandedItems>
             <ItemID>F573BF27-9E87-4C46-95F3-2DC49E23FA72</ItemID>
             <ItemID>BD9E202A-A848-4C04-B1DF-342B13D88B58</ItemID>
+            <ItemID>BD4694C1-DE0D-4BEF-8222-85038B58F087</ItemID>
             <ItemID>6D86ACCA-F2C8-4CA2-854D-77F1973FC3AD</ItemID>
             <ItemID>E57C4E78-0378-4093-9A61-25D41DFDE485</ItemID>
             <ItemID>6F53BCD4-F76B-4031-A6F5-0B69078796B2</ItemID>
@@ -15,7 +16,7 @@
             <ItemID>21053052-E47F-4772-BCB4-17EC6B0C2854</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>E34C7156-B14D-4B23-8FE1-41850AC04E31</ItemID>
+            <ItemID>8395D6BF-BA44-42B0-9073-928F7595B7AF</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -111,7 +112,7 @@
                 <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>E34C7156-B14D-4B23-8FE1-41850AC04E31</ItemID>
+                    <ItemID>8395D6BF-BA44-42B0-9073-928F7595B7AF</ItemID>
                 </Content>
             </View>
             <Text>
