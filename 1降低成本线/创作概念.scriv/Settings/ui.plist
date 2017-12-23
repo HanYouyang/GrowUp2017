@@ -31,7 +31,7 @@
 	<key>mainDocumentEditor.navigationHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>16</integer>
+		<integer>18</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
@@ -173,6 +173,22 @@
 				<key>ViewMode</key>
 				<integer>2</integer>
 			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6437BDD7-31DA-487F-BB1B-0185E036AAC0</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E9426D2A-6D3C-4240-B742-5F2D7EC23096</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
 		</array>
 	</dict>
 	<key>mainDocumentEditor.scrollRect</key>
@@ -183,7 +199,7 @@
 		<real>1</real>
 	</dict>
 	<key>mainWindowFrame</key>
-	<string>421 106 1035 672 0 0 1280 778 </string>
+	<string>34 106 1035 672 0 0 1280 778 </string>
 	<key>supportingDocumentEditor.dockedQRTextSettings</key>
 	<dict>
 		<key>textScaleFactor</key>

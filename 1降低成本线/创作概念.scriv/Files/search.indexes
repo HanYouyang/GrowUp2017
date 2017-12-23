@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SearchIndexes Version="1.0">
     <Documents>
-        <Document ID="B286AEBD-F9C7-4875-85F4-EAC4DB96B388">
-            <Title>独立思考追问+脑图</Title>
+        <Document ID="6437BDD7-31DA-487F-BB1B-0185E036AAC0">
+            <Synopsis>体制：评价体系单一化的地方</Synopsis>
         </Document>
-        <Document ID="5B02BE40-9938-4C44-97D8-56A52245FA01">
-            <Title>心理学效应</Title>
+        <Document ID="53BBA925-238B-4FC6-9CDC-578FE5EAB621">
+            <Title>逻辑学理解</Title>
         </Document>
-        <Document ID="D1564FBD-37C0-4E8F-AB72-803C88A11B7F">
-            <Title>反向思考</Title>
+        <Document ID="E9426D2A-6D3C-4240-B742-5F2D7EC23096">
+            <Title>日记</Title>
         </Document>
         <Document ID="0228BBEC-7B27-431B-9A91-DAE6AB0A92C4">
             <Title>大体想法</Title>
@@ -29,8 +29,23 @@
 
 </Text>
         </Document>
-        <Document ID="53BBA925-238B-4FC6-9CDC-578FE5EAB621">
-            <Title>逻辑学理解</Title>
+        <Document ID="18BF8C45-3061-4115-B708-4715C7FFB3A3">
+            <Synopsis>工作：自己全部时间和注意力产出的时间，与之对应是童年会让人</Synopsis>
+        </Document>
+        <Document ID="B286AEBD-F9C7-4875-85F4-EAC4DB96B388">
+            <Title>独立思考追问+脑图</Title>
+        </Document>
+        <Document ID="5B02BE40-9938-4C44-97D8-56A52245FA01">
+            <Title>心理学效应</Title>
+        </Document>
+        <Document ID="D1564FBD-37C0-4E8F-AB72-803C88A11B7F">
+            <Title>反向思考</Title>
+        </Document>
+        <Document ID="F817121A-D105-4A34-A072-D5D57771DC54">
+            <Synopsis>共犯结构：任何以自身存在为第一原则的机构必然形成的组织架构</Synopsis>
+        </Document>
+        <Document ID="C3349870-7AA8-45FF-AAAE-2FFD697FE7F1">
+            <Synopsis>以结果为导向：时间分配和注意力分配的策略是积累竞争力而不是积累“能力”</Synopsis>
         </Document>
     </Documents>
 </SearchIndexes>
