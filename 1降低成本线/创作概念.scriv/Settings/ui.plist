@@ -21,6 +21,10 @@
 		<key>textScaleFactor</key>
 		<real>1.25</real>
 	</dict>
+	<key>inspectorSplitFrames</key>
+	<array>
+		<string>{{0, 0}, {255, 640}}</string>
+	</array>
 	<key>inspectorWidth</key>
 	<real>227</real>
 	<key>mainDocumentEditor.dockedQRTextSettings</key>
@@ -31,7 +35,7 @@
 	<key>mainDocumentEditor.navigationHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>18</integer>
+		<integer>20</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
@@ -188,6 +192,22 @@
 				</array>
 				<key>ViewMode</key>
 				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>6F817DFE-E935-430B-AB97-755025BE9A0B</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>38BECF3C-B46A-49A4-B258-F0319166BDCC</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
 			</dict>
 		</array>
 	</dict>
