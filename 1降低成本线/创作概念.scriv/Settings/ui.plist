@@ -23,7 +23,7 @@
 	</dict>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {255, 640}}</string>
+		<string>{{0, 0}, {245, 640}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>227</real>
@@ -35,7 +35,7 @@
 	<key>mainDocumentEditor.navigationHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>20</integer>
+		<integer>21</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
@@ -208,6 +208,14 @@
 				</array>
 				<key>ViewMode</key>
 				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E9426D2A-6D3C-4240-B742-5F2D7EC23096</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
 			</dict>
 		</array>
 	</dict>

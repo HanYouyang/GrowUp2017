@@ -5,14 +5,8 @@
         <SelectedCollection>0</SelectedCollection>
         <SubdocumentCounts>No</SubdocumentCounts>
         <ExpandedItems>
-            <ItemID>CFFFB877-CA9E-49C2-AC41-378C1E141574</ItemID>
-            <ItemID>FD92F9AE-EB9D-4808-A078-211213343E66</ItemID>
-            <ItemID>E9426D2A-6D3C-4240-B742-5F2D7EC23096</ItemID>
-            <ItemID>5B02BE40-9938-4C44-97D8-56A52245FA01</ItemID>
+            <ItemID>0B9DA604-79E8-4393-A6B9-441C27C4844B</ItemID>
         </ExpandedItems>
-        <Selection>
-            <ItemID>E9426D2A-6D3C-4240-B742-5F2D7EC23096</ItemID>
-        </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
         <ShowProjectBookmarks>No</ShowProjectBookmarks>
@@ -60,14 +54,11 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Corkboard</GroupsViewMode>
-                <CurrentViewMode>Corkboard</CurrentViewMode>
+                <CurrentViewMode>Single</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>E9426D2A-6D3C-4240-B742-5F2D7EC23096</ItemID>
+                    <ItemID>678E60FC-0B71-4475-AB7D-FDBCC3C47F33</ItemID>
                 </Content>
-                <Selection>
-                    <ItemID>BA8D09D5-34E3-4B85-9C07-3F39F6BB828D</ItemID>
-                </Selection>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>
