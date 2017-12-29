@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="1FB60F90-F099-4F93-9EE9-F924B7A719DF" Version="2.0" Creator="SCRMAC-3.0.1-966" Device="hanyouyangdeMacBook-Pro" Author="韩悠阳" Modified="2017-12-27 16:58:48 +0800" ModID="F1E8EC94-F546-4654-B9DB-4FCD65C2F24B">
+<ScrivenerProject Identifier="1FB60F90-F099-4F93-9EE9-F924B7A719DF" Version="2.0" Creator="SCRMAC-3.0.1-966" Device="hanyouyangdeMacBook-Pro" Author="韩悠阳" Modified="2017-12-29 19:24:14 +0800" ModID="61048F71-0882-47E9-B5FE-A6441EE3C11D">
     <Binder>
         <BinderItem UUID="CFFFB877-CA9E-49C2-AC41-378C1E141574" Type="DraftFolder" Created="2017-12-20 20:59:17 +0800" Modified="2017-12-20 20:59:17 +0800">
             <Title>草稿</Title>
@@ -90,6 +90,30 @@
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="B499D33F-A873-4C54-B24F-C065C59F366D" Type="Text" Created="2017-12-27 16:58:37 +0800" Modified="2017-12-27 16:58:48 +0800">
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="E6037B26-1E33-40C7-A9B5-C4FB858E97D8" Type="Text" Created="2017-12-29 17:07:39 +0800" Modified="2017-12-29 17:07:57 +0800">
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="B351993E-37C2-4055-9EA2-07CD1DD7B0E0" Type="Text" Created="2017-12-29 17:08:12 +0800" Modified="2017-12-29 17:08:21 +0800">
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="CE9F8FE7-FADA-4A03-A6DE-34135573589D" Type="Text" Created="2017-12-29 19:24:09 +0800" Modified="2017-12-29 19:24:14 +0800">
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -209,9 +233,9 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-12-20 20:59:15 +0800" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2017-12-27 16:58:30 +0800"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2017-12-29 17:07:30 +0800"></PreviousSession>
     </ProjectTargets>
-    <RecentWritingHistory Date="2017-12-27 00:00:00 +0800">
+    <RecentWritingHistory Date="2017-12-29 00:00:00 +0800">
         <DraftWordCount>0</DraftWordCount>
         <DraftCharCount>0</DraftCharCount>
         <OtherWordCount>0</OtherWordCount>
