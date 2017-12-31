@@ -1,3 +1,0 @@
-/Users/han/Desktop/GrowUp/6五年计划：早起做起/Morning300/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/han/Desktop/GrowUp/6五年计划：早起做起/Morning300/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/han/Desktop/GrowUp/6五年计划：早起做起/Morning300/cmake-build-debug/CMakeFiles/Morning300.dir
