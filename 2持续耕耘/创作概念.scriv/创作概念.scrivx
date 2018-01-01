@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Identifier="1FB60F90-F099-4F93-9EE9-F924B7A719DF" Version="2.0" Creator="SCRMAC-3.0.1-966" Device="hanyouyangdeMacBook-Pro" Author="韩悠阳" Modified="2017-12-31 09:37:36 +0800" ModID="C45F3621-8C8B-4F3E-82CF-9E9B6865A748">
+<ScrivenerProject Identifier="1FB60F90-F099-4F93-9EE9-F924B7A719DF" Version="2.0" Creator="SCRMAC-3.0.1-966" Device="hanyouyangdeMacBook-Pro" Author="韩悠阳" Modified="2017-12-31 22:39:35 +0800" ModID="070C9A0B-C8FC-4AF8-B04B-832878D0D231">
     <Binder>
         <BinderItem UUID="CFFFB877-CA9E-49C2-AC41-378C1E141574" Type="DraftFolder" Created="2017-12-20 20:59:17 +0800" Modified="2017-12-20 20:59:17 +0800">
             <Title>草稿</Title>
@@ -41,7 +41,7 @@
                         <TextSelection>0,0</TextSelection>
                     </TextSettings>
                     <CorkboardAndOutliner>
-                        <SelectedSubdocumentUUIDs>C5B9847B-1428-4495-9EFA-44653CC34BEB</SelectedSubdocumentUUIDs>
+                        <SelectedSubdocumentUUIDs>42D9582A-918E-49EF-B69D-B8D1807C5313</SelectedSubdocumentUUIDs>
                     </CorkboardAndOutliner>
                     <Children>
                         <BinderItem UUID="6437BDD7-31DA-487F-BB1B-0185E036AAC0" Type="Text" Created="2017-12-22 16:33:07 +0800" Modified="2017-12-22 16:35:33 +0800">
@@ -125,6 +125,14 @@
                             </TextSettings>
                         </BinderItem>
                         <BinderItem UUID="C5B9847B-1428-4495-9EFA-44653CC34BEB" Type="Text" Created="2017-12-29 22:10:01 +0800" Modified="2017-12-29 22:10:51 +0800">
+                            <MetaData>
+                                <IncludeInCompile>Yes</IncludeInCompile>
+                            </MetaData>
+                            <TextSettings>
+                                <TextSelection>0,0</TextSelection>
+                            </TextSettings>
+                        </BinderItem>
+                        <BinderItem UUID="42D9582A-918E-49EF-B69D-B8D1807C5313" Type="Text" Created="2017-12-31 22:39:23 +0800" Modified="2017-12-31 22:39:35 +0800">
                             <MetaData>
                                 <IncludeInCompile>Yes</IncludeInCompile>
                             </MetaData>
@@ -246,7 +254,7 @@
     <ProjectTargets Notify="No">
         <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2017-12-20 20:59:15 +0800" IgnoreDeadline="Yes">0</DraftTarget>
         <SessionTarget Type="Words" CountDraftOnly="Yes" AllowNegatives="Yes" ResetType="Time" ResetTime="00:00" DeterminedFromDeadline="No" WritingDays="" CanWriteOnDeadlineDate="No">0</SessionTarget>
-        <PreviousSession Words="0" Characters="0" Date="2017-12-29 17:07:30 +0800"></PreviousSession>
+        <PreviousSession Words="0" Characters="0" Date="2017-12-31 22:39:17 +0800"></PreviousSession>
     </ProjectTargets>
     <RecentWritingHistory Date="2017-12-31 00:00:00 +0800">
         <DraftWordCount>0</DraftWordCount>
