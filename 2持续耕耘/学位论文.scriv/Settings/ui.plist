@@ -23,7 +23,7 @@
 	</dict>
 	<key>inspectorSplitFrames</key>
 	<array>
-		<string>{{0, 0}, {245, 640}}</string>
+		<string>{{0, 0}, {246, 640}}</string>
 	</array>
 	<key>inspectorWidth</key>
 	<real>245</real>
@@ -35,7 +35,7 @@
 	<key>mainDocumentEditor.navigationHistory</key>
 	<dict>
 		<key>CurrentIndex</key>
-		<integer>0</integer>
+		<integer>9</integer>
 		<key>NavigationHistoryArray</key>
 		<array>
 			<dict>
@@ -45,6 +45,78 @@
 				</array>
 				<key>ViewMode</key>
 				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>B1192AEA-5080-421A-A8CD-C412BF84F954</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>BD33CB63-7D39-429A-B175-D9CCCCDF3B57</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E39D73DE-B04C-40CB-B131-026B72330A65</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>B1192AEA-5080-421A-A8CD-C412BF84F954</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>484B7312-286D-4CA6-B784-9EBAFE6818D2</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>B7D58F5A-6461-45C6-8923-C721C6902FB3</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>484B7312-286D-4CA6-B784-9EBAFE6818D2</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>E39D73DE-B04C-40CB-B131-026B72330A65</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>BinderDocUUIDs</key>
+				<array>
+					<string>BD33CB63-7D39-429A-B175-D9CCCCDF3B57</string>
+				</array>
+				<key>ViewMode</key>
+				<integer>2</integer>
 			</dict>
 		</array>
 	</dict>

@@ -6,7 +6,13 @@
         <SubdocumentCounts>No</SubdocumentCounts>
         <ExpandedItems>
             <ItemID>1E26FE1E-70F4-40A1-B7BF-25B09189DAE9</ItemID>
+            <ItemID>B1192AEA-5080-421A-A8CD-C412BF84F954</ItemID>
+            <ItemID>BD33CB63-7D39-429A-B175-D9CCCCDF3B57</ItemID>
+            <ItemID>484B7312-286D-4CA6-B784-9EBAFE6818D2</ItemID>
         </ExpandedItems>
+        <Selection>
+            <ItemID>BD33CB63-7D39-429A-B175-D9CCCCDF3B57</ItemID>
+        </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
         <ShowProjectBookmarks>No</ShowProjectBookmarks>
@@ -54,10 +60,10 @@
                 <ShowHeader>Yes</ShowHeader>
                 <ShowFooter>Yes</ShowFooter>
                 <GroupsViewMode>Corkboard</GroupsViewMode>
-                <CurrentViewMode>Single</CurrentViewMode>
+                <CurrentViewMode>Corkboard</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>9FD91593-5563-4BB3-AA2C-65EBD39E8362</ItemID>
+                    <ItemID>BD33CB63-7D39-429A-B175-D9CCCCDF3B57</ItemID>
                 </Content>
             </View>
             <Text>
