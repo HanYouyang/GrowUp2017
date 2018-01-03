@@ -7,10 +7,10 @@
         <ExpandedItems>
             <ItemID>CFFFB877-CA9E-49C2-AC41-378C1E141574</ItemID>
             <ItemID>FD92F9AE-EB9D-4808-A078-211213343E66</ItemID>
-            <ItemID>E9426D2A-6D3C-4240-B742-5F2D7EC23096</ItemID>
+            <ItemID>7E0EF91D-0CA2-4A0C-9096-9B1B11D908A9</ItemID>
         </ExpandedItems>
         <Selection>
-            <ItemID>E9426D2A-6D3C-4240-B742-5F2D7EC23096</ItemID>
+            <ItemID>7E0EF91D-0CA2-4A0C-9096-9B1B11D908A9</ItemID>
         </Selection>
     </Binder>
     <Inspector Show="No" View="Notes">
@@ -62,11 +62,8 @@
                 <CurrentViewMode>Corkboard</CurrentViewMode>
                 <SelectionAffects>None</SelectionAffects>
                 <Content>
-                    <ItemID>E9426D2A-6D3C-4240-B742-5F2D7EC23096</ItemID>
+                    <ItemID>7E0EF91D-0CA2-4A0C-9096-9B1B11D908A9</ItemID>
                 </Content>
-                <Selection>
-                    <ItemID>21FA44ED-71D5-473B-9214-FEAB039ECDAC</ItemID>
-                </Selection>
             </View>
             <Text>
                 <ShowRuler>No</ShowRuler>

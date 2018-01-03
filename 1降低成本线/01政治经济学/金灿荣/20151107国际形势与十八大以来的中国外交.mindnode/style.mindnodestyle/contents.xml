@@ -38,11 +38,11 @@
 			<key>alignment</key>
 			<integer>1</integer>
 			<key>bold</key>
-			<false/>
+			<true/>
 			<key>color</key>
 			<string>{1.000000, 0.996975, 0.996897, 1.000000}</string>
 			<key>fontName</key>
-			<string>PingFangSC-Regular</string>
+			<string>PingFangSC-Semibold</string>
 			<key>fontSize</key>
 			<real>24</real>
 			<key>italic</key>
